@@ -1,0 +1,26 @@
+Lista Validação de Dados
+
+01)	Facilita em uma possível correção futura, garante que os dados da Api sejam enviados da maneira correta e garante a segurança dos dados enviados.
+02)Cadastro de Cliente 
+A) CPF: mínimo 11 caracteres e obrigatório 
+B) Data de Nascimento: idade menor que 16 anos e obrigatório
+C) E-mail: máximo de 200 caracteres e obrigatório 
+D)Telefone: mínimo 13 caracteres e obrigatório 
+E)Senha: mínimo 1 carácter especial 1 número, 6 caracteres  e obrigatório 
+F)CEP: mínimo 8 caracteres e obrigatório 
+G)Rua: Máximo de 400 caracteres e obrigatório 
+H)Bairro: Máximo de 200 caracteres e obrigatório 
+I) Cidade: Máximo de 100 caracteres e obrigatório 
+J) Estado: máximo de 100 caracteres e obrigatório 
+
+02)	Cadastro de Disciplina:
+a)	Mínimo 3 caracteres e obrigatório 
+b)	Mínimo de 3 horas e obrigatório  
+c)	Mínimo de 3 caracteres e obrigatório 
+d)	Mínimo de 3 caracteres e obrigatório 
+e)	Mínimo de 1 semestre e obrigatório 
+f)	Mínimo de 1 ano e obrigatório 
+g)	Mínimo de 3 caracteres e obrigatório 
+03)	If/Else: Possibilita mais criações de validações individuais sendo mais completa e facilita nas inserções de  mensagens de erro. Gera mais linhas de código podendo ocasionar em erros manuais de validação e difícil manutenção de código 
+Data Annotation: fácil manutenção e mais simples e objetivo diminuindo a quantidade de linha no código. É ruim para validações mais complexas com campos múltiplos e as mensagens padrão são menos personalizadas.
+
